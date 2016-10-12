@@ -30,8 +30,8 @@ Let the ‘metadata’ for a form control be a string joining the control label 
 
 For example in the http://autofill.mozdev.org/autofilltest.html forms; 
 
-- The "Full Name" field the metadata would be "Full Name name". 
-- The "card number" field would be "card number Ecom_Payment_Card_Number". 
+- the "Full Name" control metadata would be "Full Name name". 
+- the "card number" control metadata would be "card number Ecom_Payment_Card_Number". 
 
 And so on for each control with the metadata string format being "<label> <name>".
 
