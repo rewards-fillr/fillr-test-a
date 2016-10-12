@@ -1,6 +1,6 @@
 # Fillr Test - A
 
-These two tasks are separate, they do not depend on each other in any way other than refercing the same web forms. I.e. Task #2 does not depend on completing Task #1 at all and vice versa.
+These two tasks are separate, they do not depend on each other in any way other than referencing the same web forms. I.e. Task #2 does not depend on completing Task #1 at all and vice versa.
 
 Prerequisites 
 
