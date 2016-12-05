@@ -1,6 +1,6 @@
 # Fillr Test - A
 
-These two tasks are separate, they do not depend on each other in any way other than referencing the same web forms. I.e. Task #2 does not depend on completing Task #1 at all and vice versa.
+_These two tasks are separate, they do not depend on each other in any way other than referencing the same web forms. I.e. Task #2 does not depend on completing Task #1 at all and vice versa._
 
 Prerequisites 
 
@@ -52,3 +52,5 @@ Your function should be authored in the match.js #match function, and pass the R
 ## Submission
 
 Please create a new public repo named ‘fillr-test-a’ in your github account and commit your solutions to the repo. Notify Fillr that your repo is available either at stu@fillr.com or via github.
+
+Please show your working! The more commits in progress the better (this allows us to verify that the work submitted it yours and also shows us your thought processes)
