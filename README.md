@@ -45,7 +45,7 @@ Your function should be authored in the extract.js #extract function, and pass t
 
 ### Match Credit Card Controls
 
-Write a function that loops through the metadata hash and returns the metadata values for the 'credit card data fields'.  The function should use regular expressions to match against the control metadata.
+Write a function that loops through the metadata hash and returns the metadata values for the 'credit card date fields'.  The function should use regular expressions to match against the control metadata.
 
 Your function should be authored in the match.js #match function, and pass the Regular Expression#match test.
 
