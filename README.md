@@ -53,4 +53,4 @@ Your function should be authored in the match.js #match function, and pass the R
 
 Please create a new public repo named ‘fillr-test-a’ in your github account and commit your solutions to the repo. Notify Fillr that your repo is available either at stu@fillr.com or via github.
 
-Please show your working! The more commits in progress the better (this allows us to verify that the work submitted it yours and also shows us your thought processes)
+Please show your working! The more commits in progress the better (this allows us to verify that the work submitted is yours and also shows us your thought processes)
