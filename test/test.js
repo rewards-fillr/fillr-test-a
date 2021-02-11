@@ -13,7 +13,7 @@ describe('Task #1 - Metadata', function() {
 
     before(function (done) {
       jsdom.env(
-        "http://autofill.mozdev.org/autofilltest.html",
+        "assets/autofill.mozdev.org.autofilltest.html",
         [],
         function (err, window) {
           result = extract_test.extract(window);
