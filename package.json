@@ -8,9 +8,13 @@
   },
   "author": "",
   "license": "ISC",
-  "dependencies" : {
-    "mocha" : "*",
-    "chai" : "*",
-    "jsdom" : "*"
-  }
+  "dependencies": {
+    "mocha": "4.0.1",
+    "chai": "4.1.2",
+    "jsdom": "11.3.0"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {}
 }
