@@ -1,6 +1,6 @@
 {
   "name": "fillr-test-a",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Coding test to work through creating field mappings, javascript and regular expressions",
   "main": "index.js",
   "scripts": {
@@ -8,9 +8,13 @@
   },
   "author": "",
   "license": "ISC",
-  "dependencies" : {
-    "mocha" : "*",
-    "chai" : "*",
-    "jsdom" : "*"
-  }
+  "dependencies": {
+    "mocha": "4.0.1",
+    "chai": "4.1.2",
+    "jsdom": "11.3.0"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {}
 }
