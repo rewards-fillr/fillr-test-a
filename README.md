@@ -7,7 +7,7 @@ Prerequisites
 - node.js V4 or greater with npm
 - git
 - internet connection
-- linux OS
+- Linux OS
 
 To run the solution validation tests: `run/tests`
 
