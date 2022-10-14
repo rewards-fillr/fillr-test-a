@@ -1,6 +1,6 @@
 {
   "name": "fillr-test-a",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Coding test to work through creating field mappings, javascript and regular expressions",
   "main": "index.js",
   "scripts": {
