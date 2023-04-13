@@ -1,15 +1,15 @@
 # Fillr Test - A
 
-_These two tasks are separate, they do not depend on each other in any way other than referencing the same web forms. I.e. Task #2 does not depend on completing Task #1 at all and vice versa._
+_These three tasks are separate, they do not depend on each other in any way other than referencing the same web forms. I.e. Task #2 does not depend on completing Task #1 at all and vice versa._
 
 Prerequisites
 
 - node.js V4 or greater with npm
 - git
 - internet connection
-- linux OS
+- bash/bash-like shell
 
-To run the solution validation tests: `run/tests`
+To run the solution validation tests: `run/tests`. Do not change the test file.
 
 ## Task #1 - Form Mapping
 
@@ -21,7 +21,7 @@ The output of this task is a JSON hash containing:
 - the key of each element in the hash will be the ‘name’ attribute of the control.
 - the corresponding value for each control name key will be an ‘autofill detail token’ describing your best guess at the most suitable section (optional), address type (optional) and autofill field name for the control as per the WHATWG autofill spec.
 
-Save the complete JSON hash (formatted and indented) to the file named mapping.json
+Save the complete JSON hash (formatted and indented) to the file named mapping.json.
 You can implement a script that outputs mapping.json, or you can write out the output manually.
 
 ## Task #2 - Regular Expressions
@@ -35,19 +35,17 @@ For example in the `assets/autofill.mozdev.org.autofilltest.html` forms;
 
 And so on for each control with the metadata string format being "<label> <name>".
 
-### Extract Metadata
-
 Write a function that uses the DOM to extract the ’metadata’ for each control in the Amazon and eCommerce Forms in the page `assets/autofill.mozdev.org.autofilltest.html`.
 
 The metadata should be returned from the function in a hash object with the control label as key, and the metadata as the value for each element.
 
-Your function should be authored in the extract.js #extract function, and pass the test Metadata#extract.
+Your function should be authored in the extract.js #extract function, and pass the test Regular Expressions#extract test.
 
 ## Task #3 - Match Credit Card Controls
 
 Write a function that loops through the metadata hash and returns the metadata values for the 'credit card date fields'.  The function should use regular expressions to match against the control metadata.
 
-Your function should be authored in the match.js #match function, and pass the Regular Expression#match test.
+Your function should be authored in the match.js #match function, and pass the Match Credit Card Controls#match test.
 
 ## Submission
 
